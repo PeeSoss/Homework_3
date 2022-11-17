@@ -1,0 +1,103 @@
+@media only screen and (max-width: 768px) {
+    body {
+        display: block;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 5;
+        background-color: #9498ea;
+        padding: 10px 0;
+        transition-delay: 0s;
+        transition-duration: 0.4s;
+        transition-property: all;
+        transition-timing-function: ease;
+    }
+    .h1 {
+        color: #1e227c;
+        font: 10px Georgia;
+        margin-left: 150px;
+        font-weight: bold;
+        text-decoration: overline;
+    }
+    .menu {
+        font-size: 10px;
+        list-style: none;
+        position: absolute;
+        text-align: right;
+        top: 15px;
+        right: 30px;
+    }
+    .gif {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+    main {
+        max-width: 100%
+    }
+    .photo {
+        text-align: center;
+        position: absolute;
+        left: 35%;
+        top: 15%;
+        display: block;
+    }
+    .text {
+        text-align: center;
+        font-size: 10px;
+        margin-top: 170px;
+        color: darkred;
+        width: 150px;
+    }
+    .h2 {
+        margin: 10px 0;
+        text-align: center;
+        color: #9498ea;
+        font: 15px Georgia;
+        margin-left: 20px;
+        margin-bottom: 1px;
+        width: 250px;
+        height: 200px;
+    }
+    section {
+        padding: 90px;
+    }
+    .col-md-6 {
+        font: 10px;
+        margin-left: 40px;
+    }
+    .col-md-12 {
+        font: 10px;
+        margin-left: 40px;
+    }
+    .footer-distributed {
+        width: 100%;
+        display: inline-block;
+        text-decoration: underline;
+        background-color: #54058580;
+        box-sizing: border-box;
+        text-align: left;
+        font: normal 16px;
+        padding: 20px;
+    }
+    .footer-distributed .footer-left p {
+        color: #000000;
+        font-size: 14px;
+        margin-left: 150px;
+    }
+    .footer-distributed p.footer-links {
+        font-size: 10px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-left: 100px;
+    }
+    .footer-distributed .footer-links a:before {
+        content: "-";
+        font-size: 10px;
+        color: #fff;
+        display: inline-block;
+        padding-right: 5px;
+    }
+}

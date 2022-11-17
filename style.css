@@ -1,0 +1,110 @@
+body {
+    display: block;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    background-color: #9498ea;
+    padding: 10px 0;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.h1 {
+    color: #1e227c;
+    font: 20px Georgia;
+    margin-left: 600px;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+
+.gif {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+main {
+    max-width: 100%
+}
+
+.h2 {
+    color: #9498ea;
+    font: 20px Georgia;
+    margin-left: 60px;
+    margin-bottom: 1px;
+}
+
+section {
+    padding: 90px;
+}
+
+.photo {
+    width: 50;
+    height: 50;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+.text {
+    margin: 0 auto;
+    padding: 30px;
+    color: darkred;
+    margin-left: 21%;
+}
+
+.col-md-6 {
+    margin-top: 10px;
+    font: 10px;
+    margin-left: 500px;
+}
+
+.col-md-12 {
+    font: 10px;
+    margin-left: 500px;
+}
+
+.footer-distributed {
+    width: 100%;
+    display: inline-block;
+    text-decoration: underline;
+    background-color: #54058580;
+    box-sizing: border-box;
+    text-align: left;
+    font: normal 15px;
+    padding: 40px;
+}
+
+.footer-distributed .footer-left p {
+    color: #000000;
+    font-size: 14px;
+    margin-left: 600px;
+}
+
+.footer-distributed p.footer-links {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 500px;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "-";
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
